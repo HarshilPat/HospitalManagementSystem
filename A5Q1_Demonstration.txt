@@ -1,0 +1,120 @@
+/*
+ * Description: Demonstration of the code working in Assignment5-Q1.
+ * Student Name: Harshil Patel
+ * NSID: hap793
+ * Student # 11290942
+ * Course: CMPT270
+ * Date: 11/09/20
+ * */
+
+
+Initializing the system...
+Getting Ward information...
+Enter the name of the Ward: EmergencyWard
+Entered: EmergencyWard
+Enter the integer label of the first bed: 1
+Entered: 1
+Enter the integer label of the last bed: 10
+Entered: 10
+Options:
+	1: quit
+	2: add a new patient
+	3: add a new doctor
+	4: assign a doctor to a patient
+	5: display the empty beds of the ward
+	6: assign a patient a bed
+	7: release a patient
+	8: drop doctor-patient association
+	9: display current system state
+Enter your selection {1-9}: 2
+Adding Patient to Ward...
+Enter the name of the patient: harshil
+Entered: harshil
+Enter the health number of the patient: 12345
+Entered: 12345
+Options:
+	1: quit
+	2: add a new patient
+	3: add a new doctor
+	4: assign a doctor to a patient
+	5: display the empty beds of the ward
+	6: assign a patient a bed
+	7: release a patient
+	8: drop doctor-patient association
+	9: display current system state
+Enter your selection {1-9}: 6
+Assigning a Patient to a Bed...
+Enter the health number of the patient: 12345
+Enter the bed number for the patient: 5
+Options:
+	1: quit
+	2: add a new patient
+	3: add a new doctor
+	4: assign a doctor to a patient
+	5: display the empty beds of the ward
+	6: assign a patient a bed
+	7: release a patient
+	8: drop doctor-patient association
+	9: display current system state
+Enter your selection {1-9}: 5
+[1, 2, 3, 4, 6, 7, 8, 9, 10]
+Options:
+	1: quit
+	2: add a new patient
+	3: add a new doctor
+	4: assign a doctor to a patient
+	5: display the empty beds of the ward
+	6: assign a patient a bed
+	7: release a patient
+	8: drop doctor-patient association
+	9: display current system state
+Enter your selection {1-9}: 7
+Releasing a Patient from a Bed...
+Enter health number of the patient: 12345
+Options:
+	1: quit
+	2: add a new patient
+	3: add a new doctor
+	4: assign a doctor to a patient
+	5: display the empty beds of the ward
+	6: assign a patient a bed
+	7: release a patient
+	8: drop doctor-patient association
+	9: display current system state
+Enter your selection {1-9}: 5
+[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+Options:
+	1: quit
+	2: add a new patient
+	3: add a new doctor
+	4: assign a doctor to a patient
+	5: display the empty beds of the ward
+	6: assign a patient a bed
+	7: release a patient
+	8: drop doctor-patient association
+	9: display current system state
+Enter your selection {1-9}: 1
+
+The patients in the system are 
+
+Name: harshil
+Health card number: 12345
+with doctors 
+
+The doctors in the system are 
+
+The ward is 
+Ward EmergencyWard with capacity 10 has the following patients: 
+bed 1: 
+bed 2: 
+bed 3: 
+bed 4: 
+bed 5: 
+bed 6: 
+bed 7: 
+bed 8: 
+bed 9: 
+bed 10: 
+
+
+Process finished with exit code 0
